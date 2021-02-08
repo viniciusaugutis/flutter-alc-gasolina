@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Álcool ou Gasolina',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomePage(),
@@ -64,7 +64,7 @@ class HomePage extends StatelessWidget {
                         "CALCULAR NOVAMENTE",
                         style: TextStyle(
                           color: Theme.of(context).primaryColor,
-                          fontSize: 15,
+                          fontSize: 30,
                           fontFamily: "Big Shoulders Display",
                         ),
                       ),
